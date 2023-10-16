@@ -1,0 +1,15 @@
+{
+    "projectName": "ModulLandKarte",
+    "languages": [{
+        "id": "modul-land-karte",
+        "grammar": "src/language/modul-land-karte.langium",
+        "fileExtensions": [".mlk"],
+        "textMate": {
+            "out": "syntaxes/modul-land-karte.tmLanguage.json"
+        },
+        "monarch": {
+            "out": "syntaxes/modul-land-karte.monarch.ts"
+        }
+    }],
+    "out": "src/language/generated"
+}
